@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.hero {
+  background-color: #23424a;
+  color: #fff;
+  padding: 100px 0px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.row {
+  /* display: flex => flex container */
+  display: flex;
+  /* default row */
+  flex-direction: row;
+  /* gap: 100px; */
+}
+
+.col {
+  /* these are now flex items and want to be columns */
+  width: 100%;
+}
+
+/* if a col has an adjacent (previous) sibling called col, it'll select it */
+.col + .col {
+  background-color: limegreen;
+  margin-left: 30px;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.hero__img {
+  align-self: flex-start;
+}
+
+.button {
+  display: inline-block;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  color: #23424a;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.75;
+}

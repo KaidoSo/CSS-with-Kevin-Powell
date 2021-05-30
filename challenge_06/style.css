@@ -1,0 +1,152 @@
+/* 
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+1. Refer to the design specs for the
+   overall layout 
+2. The image should line up with
+   the sidebar in the section
+   below
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  /* display: flex => flex container */
+  display: flex;
+  justify-content: space-between;
+
+  /* can't use yet */
+  /* gap: 100px; */
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 30px;
+}
+
+header {
+  background: #136c72;
+  padding: 1em 0;
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav__item {
+  margin-right: 1em;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: 0.75;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+
+.hero__text,
+.main__left {
+  width: 62%;
+}
+
+.hero__img,
+.main__right {
+  width: 32%;
+  align-self: flex-start;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+.main {
+  margin: 3em 0;
+}
+
+.main__left {
+  margin-right: 1em;
+}
+
+.main__left--title {
+  color: #136c72;
+}
+
+.main__right {
+  background-color: #136c72;
+  text-align: center;
+  color: #fff;
+  padding: 1em;
+}
