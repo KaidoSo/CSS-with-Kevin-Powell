@@ -1,0 +1,20 @@
+:root {
+  --lightBrown: #f3eed9;
+  --brown: #824936;
+  --blackish: #222c2a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 660px;
+}
