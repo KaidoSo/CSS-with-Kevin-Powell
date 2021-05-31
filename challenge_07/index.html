@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Challenge 07</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container">
         <p>lorem ipsum sit</p>
         <h1>Responsive layouts don’t have to be a struggle</h1>
-      </header>
-      <main>
-        <section class="section__one">
+      </div>
+    </header>
+
+    <main>
+      <section class="section__one">
+        <div class="container">
           <h2>Quality Designs</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,25 +39,35 @@
             quisque egestas. Pellentesque sit amet porttitor eget dolor morbi
             non.
           </p>
-        </section>
-        <section class="section__two">
+        </div>
+      </section>
+      <section class="section__two">
+        <div class="container">
           <h2>Made custom for you</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam.
           </p>
-        </section>
-        <section class="section__three">
+          <div class="section__two--img">
+            <img src="./image-01.jpg" alt="sunrise" />
+          </div>
+        </div>
+      </section>
+      <section class="section__three">
+        <div class="container">
           <h2>Created with care</h2>
+          <div class="section__three--img">
+            <img src="./image-02.jpg" alt="mountain" />
+          </div>
           <p>
             Felis donec et odio pellentesque diam volutpat. Aliquam purus sit
             amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue
             quisque egestas. Pellentesque sit amet porttitor eget dolor morbi
             non.
           </p>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

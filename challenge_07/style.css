@@ -8,7 +8,54 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
 }
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+/* headers and paragraphs */
+h1,
+h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: var(--brown);
+  margin: 0 3em;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.header p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.5em;
+  font-weight: 300;
+}
+
+.section__one h2 {
+  color: var(--brown);
+}
+
+.section__two h2,
+.section__three h2 {
+  color: var(--lightBrown);
+}
+
+/* general */
 
 .container {
   max-width: 1128px;
@@ -16,5 +63,17 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 660px;
+  background-color: var(--lightBrown);
+}
+
+.section__two {
+  background-color: var(--blackish);
+}
+
+.section__three {
+  background-color: var(--brown);
 }
