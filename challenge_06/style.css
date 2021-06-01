@@ -152,3 +152,20 @@ header {
   color: #fff;
   padding: 1em;
 }
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .hero__text,
+  .hero__img,
+  .main__right,
+  .main__left {
+    width: 100%;
+  }
+
+  .hero__img {
+    margin-top: 2em;
+  }
+}
