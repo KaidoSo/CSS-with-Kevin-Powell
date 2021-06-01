@@ -30,6 +30,7 @@ h1 {
 
 h2 {
   font-size: 36px;
+  padding: 1.5em 0 1em 0;
 }
 
 p {
@@ -74,10 +75,26 @@ p {
   display: flex;
 }
 
+.section__one p {
+  padding-bottom: 3em;
+}
+
+.section__one--p2 {
+  margin-left: 2em;
+}
+
 .section__two {
   background-color: var(--blackish);
 }
 
+.section__two--img {
+  padding: 4em 0 4em 3em;
+}
+
 .section__three {
   background-color: var(--brown);
+}
+
+.section__three--img {
+  padding: 4em 3em 4em 0;
 }
