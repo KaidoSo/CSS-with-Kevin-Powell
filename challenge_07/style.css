@@ -70,6 +70,10 @@ p {
   background-color: var(--lightBrown);
 }
 
+.row {
+  display: flex;
+}
+
 .section__two {
   background-color: var(--blackish);
 }
