@@ -2,6 +2,7 @@
   --lightBrown: #f3eed9;
   --brown: #824936;
   --blackish: #222c2a;
+  --white: #fff;
 }
 
 *,
@@ -19,13 +20,13 @@ body {
 h1,
 h2 {
   font-weight: 900;
-  text-align: center;
 }
 
 h1 {
   font-size: 60px;
   color: var(--brown);
   margin: 0 3em;
+  text-align: center;
 }
 
 h2 {
@@ -75,6 +76,10 @@ p {
   display: flex;
 }
 
+.section__one h2 {
+  text-align: center;
+}
+
 .section__one p {
   padding-bottom: 3em;
 }
@@ -89,6 +94,11 @@ p {
 
 .section__two--img {
   padding: 4em 0 4em 3em;
+}
+
+.section__two p,
+.section__three p {
+  color: var(--white);
 }
 
 .section__three {
